@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -32,7 +32,7 @@ Connect-MsolService [-AdGraphAccessToken <String>] [-MsGraphAccessToken <String>
 
 ## DESCRIPTION
 The **Connect-MsolService** cmdlet attempts to initiate a connection to Azure Active Directory.
-You must specify a credential, as a **PSCredential** object, or specify the _CurrentCredentials_ parameter to use the credentials of the current user.
+You must specify a credential, as a **PSCredential** object, or specify the *CurrentCredentials* parameter to use the credentials of the current user.
 
 This cmdlet may return a warning or error if the version of the module is out of date.
 
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

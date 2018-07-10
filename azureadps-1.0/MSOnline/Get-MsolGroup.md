@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -35,7 +35,7 @@ Get-MsolGroup [-UserObjectId <Guid>] [-IsAgentRole] [-UserPrincipalName <String>
 
 ## DESCRIPTION
 The **Get-MsolGroup** cmdlet gets groups from Azure Active Directory.
-This cmdlet can be used to return a single group, if you specify the _ObjectId_ parameter, or to search within all groups.
+This cmdlet can be used to return a single group, if you specify the *ObjectId* parameter, or to search within all groups.
 
 ## EXAMPLES
 
@@ -65,7 +65,7 @@ This only applies for companies that have partner privileges.
 
 ### -All
 Indicates that this cmdlet returns all results that it finds.
-Do not specify this parameter and the _MaxResults_ parameter.
+Do not specify this parameter and the *MaxResults* parameter.
 
 ```yaml
 Type: SwitchParameter
@@ -193,7 +193,7 @@ Accept wildcard characters: False
 ### -UserObjectId
 Specifies the unique ID of a user.
 This cmdlet returns security groups to which this user belongs.
-This parameter must be used along with the _IsAgentRole_ parameter.
+This parameter must be used along with the *IsAgentRole* parameter.
 
 ```yaml
 Type: Guid
@@ -210,7 +210,7 @@ Accept wildcard characters: False
 ### -UserPrincipalName
 Specifies the user principal name of a user.
 This cmdlet returns security groups to which this user belongs.
-This parameter must be used along with the _IsAgentRole_ parameter.
+This parameter must be used along with the *IsAgentRole* parameter.
 
 ```yaml
 Type: String
@@ -241,7 +241,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 
@@ -257,15 +257,15 @@ This cmdlet returns a list of groups, which include the following information:
 * DisplayName. The group's display name.
 
 * EmailAddress. The group's email addresses.
-This is not returned for security groups.
+  This is not returned for security groups.
 
 * Errors. A list of errors for the group.
 
 * GroupType. The group's type.
-Types can be SecurityGroup, DistributionList or MailEnabledSecurityGroup.
+  Types can be SecurityGroup, DistributionList or MailEnabledSecurityGroup.
 
 * IsSystem. Whether or not this group is a system group (created by Azure Active Directory).
-These groups cannot be updated or removed.
+  These groups cannot be updated or removed.
 
 * LastDirSyncTime. The date and time that the group was last synched.
 

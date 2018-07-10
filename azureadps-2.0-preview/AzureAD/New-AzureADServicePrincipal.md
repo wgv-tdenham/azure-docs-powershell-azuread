@@ -236,8 +236,8 @@ Accept wildcard characters: False
 ### -ServicePrincipalNames
 Specifies an array of service principal names. Based on the identifierURIs collection, plus the application's appId property, these URIs are used to reference an application's service principal. A client will use these to:
 
- - populate requiredResourceAccess, via "Permissions to other applications" in the Azure classic portal.
- - specify a resource URI to acquire an access token, which is the URI returned in the claim.
+- populate requiredResourceAccess, via "Permissions to other applications" in the Azure classic portal.
+- specify a resource URI to acquire an access token, which is the URI returned in the claim.
 
 
 ```yaml
@@ -285,7 +285,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

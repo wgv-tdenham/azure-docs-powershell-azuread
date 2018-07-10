@@ -30,8 +30,8 @@ Get-AzureADMSGroup -Id <String> [-All <Boolean>] [<CommonParameters>]
 
 ## DESCRIPTION
 The **Get-AzureADMSGroup** cmdlet gets information about groups in Azure Active Directory (Azure AD).
-To get a group, specify the _Id_ parameter. 
-Specify the _SearchString_ or _Filter_ parameter to find particular groups. 
+To get a group, specify the *Id* parameter. 
+Specify the *SearchString* or *Filter* parameter to find particular groups. 
 If you specify no parameters, this cmdlet gets all groups.
 
 ## EXAMPLES
@@ -177,7 +177,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

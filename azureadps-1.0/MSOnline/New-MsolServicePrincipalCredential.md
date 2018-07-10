@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -230,9 +230,9 @@ Accept wildcard characters: False
 Specifies the value of the credential.
 
 * If the credential type is asymmetric, the value represents the base 64 encoded certificate.
-* If the credential type is symmetric and the _Value_ parameter is not specified, a 256 bit AES key is automatically created and valid for one year from creation.
-* If the credential type is password, specify _Value_.
-It should not be base 64 encoded.
+* If the credential type is symmetric and the *Value* parameter is not specified, a 256 bit AES key is automatically created and valid for one year from creation.
+* If the credential type is password, specify *Value*.
+  It should not be base 64 encoded.
 
 ```yaml
 Type: String
@@ -247,7 +247,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

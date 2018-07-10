@@ -51,7 +51,7 @@ ObjectId                             DisplayName UserPrincipalName              
 
 This command creates a new user.
 
->Note: If you want to provide a value for an extension attribute when creating a new user, you must provide a parameter of the type System.Collections.Generic.Dictionary. The below example shows how to do this.
+> Note: If you want to provide a value for an extension attribute when creating a new user, you must provide a parameter of the type System.Collections.Generic.Dictionary. The below example shows how to do this.
 
 ### Example 2: Create a user and set an extension attribute value
 
@@ -531,7 +531,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

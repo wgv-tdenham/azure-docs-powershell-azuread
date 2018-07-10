@@ -21,6 +21,7 @@ If you are developing new PowerShell scripts with Azure AD cmdlets we advise you
 Please refer to the below detailed description of the modules for a full list of cmdlets and functionality.
 
 
+
 Module | Description
 ------ | -----------
 [AzureAD](/powershell/module/azuread?view=azureadps-2.0) | Azure Active Directory PowerShell for Graph

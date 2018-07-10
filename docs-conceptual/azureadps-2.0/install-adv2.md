@@ -100,7 +100,7 @@ Connect-AzureAD -Credential $AzureAdCred
 The first command prompts for credentials and stores them as $AzureAdCred.
 The next command uses those credentials as $azureadcred to connect to the service.
 
-To connect to a specific environment of Azure Active Directory, use the _AzureEnvironment_ parameter, as follows:
+To connect to a specific environment of Azure Active Directory, use the *AzureEnvironment* parameter, as follows:
 
 ```PowerShell
 Connect-AzureAD -AzureEnvironment "AzureGermanyCloud"

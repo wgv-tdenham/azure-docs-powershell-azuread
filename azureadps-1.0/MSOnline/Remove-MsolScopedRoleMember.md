@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -70,7 +70,7 @@ Accept wildcard characters: False
 
 ### -RoleMemberObjectId
 Specifies the unique object ID of the member to remove from the role scoped to the administrative unit.
-Specify either the _RoleMemberUserPrincipalName_ or _RoleMemberObjectId_ parameter.
+Specify either the *RoleMemberUserPrincipalName* or *RoleMemberObjectId* parameter.
 
 ```yaml
 Type: Guid
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 
 ### -RoleMemberUserPrincipalName
 Specifies the user principal name of the member to remove.
-Specify either _RoleMemberUserPrincipalName_ or _RoleMemberObjectId_.
+Specify either *RoleMemberUserPrincipalName* or *RoleMemberObjectId*.
 
 ```yaml
 Type: String
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

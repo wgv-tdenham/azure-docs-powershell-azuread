@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version: 
 schema: 2.0.0
@@ -182,7 +182,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 
@@ -199,9 +199,9 @@ This cmdlet returns device objects, which include the following information:
 - DeviceOSType: The device operating system type. 
 - DeviceOSVersion: The device operating system version number. 
 - DeviceTrustType: The device trust type.
-The value could be one of the following: Workplace Joined, AzureAD Joined, Domain Joined. 
+  The value could be one of the following: Workplace Joined, AzureAD Joined, Domain Joined. 
 - DeviceTrustLevel: The device trust level.
-The value could be one of the following: Authenticated, Compliant, Managed. 
+  The value could be one of the following: Authenticated, Compliant, Managed. 
 - DevicePhysicalIds: The device physical Ids. 
 - ApproximateLastLogonTimestamp: The last logon timestamp using this device. 
 - AlternativeSecurityIds: The device alternative security Ids. 

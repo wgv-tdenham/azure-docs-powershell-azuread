@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -43,7 +43,7 @@ Get-MsolUser [-ReturnDeletedUsers] [-City <String>] [-Country <String>] [-Depart
 
 ## DESCRIPTION
 The **Get-MsolUser** cmdlet gets an individual user or list of users.
-Specify the _ObjectId_ or _UserPrincipalName_ parameter to get a specific user.
+Specify the *ObjectId* or *UserPrincipalName* parameter to get a specific user.
 
 ## EXAMPLES
 
@@ -94,7 +94,7 @@ This command returns the preferred data location of a user.
 
 ### -All
 Indicates that this cmdlet returns all results.
-Do not specify together with the _MaxResults_ parameter.
+Do not specify together with the *MaxResults* parameter.
 
 ```yaml
 Type: SwitchParameter
@@ -398,7 +398,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 
@@ -420,14 +420,14 @@ This cmdlet returns user objects, which include the following information:
 * DisplayName. The user's display name.
 
 * Errors. An array of errors.
-These are validation errors that may result in loss of services.
+  These are validation errors that may result in loss of services.
 
 * Fax. The user's fax number.
 
 * FirstName. The user's first name.
 
 * ImmutableID. Only returned for federated users.
-This is the ID that is required to be federated with Azure Active Directory.
+  This is the ID that is required to be federated with Azure Active Directory.
 
 * isBlackBerryUser. Returns whether or not the user has a BlackBerry device.
 
@@ -440,7 +440,7 @@ This is the ID that is required to be federated with Azure Active Directory.
 * LastName. The user's last name.
 
 * LicenseReconciliationNeeded. Whether or not the user currently has a mailbox without a license.
-In this case, the user should be licensed with 30 days to avoid losing their mailbox.
+  In this case, the user should be licensed with 30 days to avoid losing their mailbox.
 
 * Licenses. A list of the user's licenses.
 
@@ -471,12 +471,12 @@ In this case, the user should be licensed with 30 days to avoid losing their mai
 * StreetAddress. The user's street address.
 
 * StrongPasswordRequired. Whether the user is required to set a strong password when they change their password.
-Strong passwords are recommended.
+  Strong passwords are recommended.
 
 * Title. The user's title.
 
 * UsageLocation. The country where the services are consumed by the user.
-This must be a two letter country code.
+  This must be a two letter country code.
 
 * UserPrincipalName. The user ID of the user.
 

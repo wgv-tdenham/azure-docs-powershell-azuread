@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -43,7 +43,7 @@ The command stores the results in the $RoleMembers variable.
 
 ### -All
 Indicates that this cmdlet returns all results that it finds.
-Do not specify this parameter and the _MaxResults_ parameter.
+Do not specify this parameter and the *MaxResults* parameter.
 
 ```yaml
 Type: SwitchParameter
@@ -138,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 
@@ -160,7 +160,7 @@ This cmdlet returns role member objects that contain the following information:
 * OverallProvisioningStatus. The provisioning status of this user.
 
 * RoleMemberType. The type of role member.
-Currently only "User" is supported.
+  Currently only "User" is supported.
 
 * ValidationStatus. Whether or not there are any errors with this group member.
 

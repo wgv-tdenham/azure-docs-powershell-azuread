@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -39,13 +39,13 @@ PS C:\> Add-MsolRoleMember -RoleName "Company Administrator" -RoleMemberEmailAdd
 ```
 
 This command adds elisadaugherty@contoso.com to the Company Administrator role.
-To get the list of values for the _RoleName_ parameter, use the [Get-MsolRole](./Get-MsolRole.md) cmdlet.
+To get the list of values for the *RoleName* parameter, use the [Get-MsolRole](./Get-MsolRole.md) cmdlet.
 
 ## PARAMETERS
 
 ### -RoleMemberEmailAddress
 Specifies the member to add.
-Specify either the _RoleMemberEmailAddress_ or _RoleMemberObjectId_ parameter.
+Specify either the *RoleMemberEmailAddress* or *RoleMemberObjectId* parameter.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 
 ### -RoleMemberObjectId
 Specifies the unique object ID of the member to add.
-Specify either _RoleMemberEmailAddress_ or _RoleMemberObjectId_.
+Specify either *RoleMemberEmailAddress* or *RoleMemberObjectId*.
 
 ```yaml
 Type: Guid
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 
 ### -RoleName
 Specifies the name of the role to which to add members.
-Specify either the _RoleName_ or _RoleObjectId_ parameter.
+Specify either the *RoleName* or *RoleObjectId* parameter.
 
 ```yaml
 Type: String
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 
 ### -RoleObjectId
 Specifies the unique ID of the role to which to add members.
-Specify either _RoleName_ or _RoleObjectId_.
+Specify either *RoleName* or *RoleObjectId*.
 
 ```yaml
 Type: Guid
@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

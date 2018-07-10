@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -33,7 +33,7 @@ Get-MsolContact [-HasErrorsOnly <Boolean>] [-SearchString <String>] [-All] [-Ten
 
 ## DESCRIPTION
 The **Get-MsolContact** cmdlet gets a contact object or list of contacts.
-Specify the _ObjectId_ parameter to get a single contact.
+Specify the *ObjectId* parameter to get a single contact.
 
 ## EXAMPLES
 
@@ -55,7 +55,7 @@ This command retrieves a list of contacts with a display name or email address s
 
 ### -All
 Indicates that this cmdlet returns all results that it finds.
-Do not specify this parameter and the _MaxResults_ parameter.
+Do not specify this parameter and the *MaxResults* parameter.
 
 ```yaml
 Type: SwitchParameter
@@ -149,7 +149,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

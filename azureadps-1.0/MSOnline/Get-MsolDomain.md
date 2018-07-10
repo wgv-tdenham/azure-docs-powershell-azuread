@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -133,7 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 
@@ -145,18 +145,18 @@ Each domain returned will include the following information:
 * Authentication. The authentication type of the domain (managed or federated).
 
 * Capabilities. The capabilities assigned to the domain.
-These can be SharePoint, email, or OfficeCommunicationsOnline.
-A domain with SharePoint capability cannot be used for other capabilities.
+  These can be SharePoint, email, or OfficeCommunicationsOnline.
+  A domain with SharePoint capability cannot be used for other capabilities.
 
 * IsDefault. This is the default domain that is used for user creation.
-There is only one default domain per company.
+  There is only one default domain per company.
 
 * IsInitial. Whether or not this is the initial domain created by Microsoft Azure Active Directory (\[companyname\].onmicrosoft.com).
 
 * Name. The full name of the domain.
 
 * RootDomain. For subdomains, this represents the root domain.
-Only root domains need to be verified, and all subdomains will be automatically verified.
+  Only root domains need to be verified, and all subdomains will be automatically verified.
 
 * Status. The status of the domain (verified or unverified).
 

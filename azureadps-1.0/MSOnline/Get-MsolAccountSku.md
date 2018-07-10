@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 
@@ -73,7 +73,7 @@ The cmdlet returns AccountSKU objects that contain the following information:
 * AccountObjectId. The unique ID of the account this SKU belongs to.
 
 * AccountSkuId. The unique string ID of the account/SKU combination.
-This value should be used when assigning or updating licenses.
+  This value should be used when assigning or updating licenses.
 
 * ActiveUnits. The number of active licenses.
 
@@ -86,13 +86,13 @@ This value should be used when assigning or updating licenses.
 * SkuPartNumber. The partner number of this SKU.
 
 * SubscriptionIds. A list of all subscriptions associated with this SKU.
-For the purposes of assigning licenses, all subscriptions with the same SKU will be grouped into a single license pool.
+  For the purposes of assigning licenses, all subscriptions with the same SKU will be grouped into a single license pool.
 
 * SuspendedUnits. The number of suspended licenses.
-These licenses are not available for assignment.
+  These licenses are not available for assignment.
 
 * TargetClass. The target class of this SKU.
-Only SKUs with target class=user are assignable.
+  Only SKUs with target class=user are assignable.
 
 * WarningUnits. The number of warning units.
 

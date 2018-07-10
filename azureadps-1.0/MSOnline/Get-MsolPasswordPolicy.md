@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -73,20 +73,20 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 
 ## OUTPUTS
 
-###  
+### 
 This cmdlet returns the following values:
 
 * ValidityPeriod. Specifies the length of time that a password is valid before it must be changed.
-A null value indicates the default value of 90 days will be used.
+  A null value indicates the default value of 90 days will be used.
 
 * NotificationDays. Specifies the number of days before a user receives notification that their password will expire.
-A null value indicates the default of 14 days will be used.
+  A null value indicates the default of 14 days will be used.
 
 ## NOTES
 

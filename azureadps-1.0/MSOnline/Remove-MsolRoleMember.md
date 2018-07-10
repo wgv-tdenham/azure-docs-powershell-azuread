@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help.xml
 online version:
 schema: 2.0.0
@@ -42,7 +42,7 @@ This command removes elisadaugherty@contoso.com from the Company Administrator r
 
 ### -RoleMemberEmailAddress
 Specifies the member remove add.
-Specify either the _RoleMemberEmailAddress_ or _RoleMemberObjectId_ parameter.
+Specify either the *RoleMemberEmailAddress* or *RoleMemberObjectId* parameter.
 
 ```yaml
 Type: String
@@ -58,7 +58,7 @@ Accept wildcard characters: False
 
 ### -RoleMemberObjectId
 Specifies the unique object ID of the member to remove.
-Specify either _RoleMemberEmailAddress_ or _RoleMemberObjectId_.
+Specify either *RoleMemberEmailAddress* or *RoleMemberObjectId*.
 
 ```yaml
 Type: Guid
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 
 ### -RoleName
 Specifies the name of the role from which to remove members.
-Specify either the _RoleName_ or _RoleObjectId_ parameter.
+Specify either the *RoleName* or *RoleObjectId* parameter.
 
 ```yaml
 Type: String
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 
 ### -RoleObjectId
 Specifies the unique ID of the role from which to remove members.
-Specify either _RoleName_ or _RoleObjectId_.
+Specify either *RoleName* or *RoleObjectId*.
 
 ```yaml
 Type: Guid
@@ -137,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (<http://go.microsoft.com/fwlink/?LinkID=113216>).
 
 ## INPUTS
 

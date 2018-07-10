@@ -67,5 +67,4 @@ If you want to permanently delete a unified group to prevent anyone from recover
 Remove-AzureADMSDeletedDirectoryObject -Id 854e0412-6975-4ac0-94a3-9bfff671b7f8
 ```
 
->Note: If you attempt to recover a deleted unified group for which the SAMAccountName already exists the cmdlet will fail. You must first remove the existing SAMAccountName by either changing it or deleting the object that has it.
->
+> Note: If you attempt to recover a deleted unified group for which the SAMAccountName already exists the cmdlet will fail. You must first remove the existing SAMAccountName by either changing it or deleting the object that has it.
